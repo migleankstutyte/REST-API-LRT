@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.text {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.smaller {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.big {
+  text-align: left;
+}
+
+.row {
+  margin-bottom: 20px;  
+  align-items: center;
+}
+
+.link {
+margin-top: 100px;
+}
+
+.link a {
+    color: #000;
+    font-weight: bold;
+}
+
+.link a:hover {
+  color: #000;
+}
