@@ -15,19 +15,33 @@
   text-transform: uppercase;
 }
 
-.smaller {
-  font-size: 12px;
-  font-weight: bold;
-  text-align: right;
+.content-container {
+  width: 50%;
+  margin: auto;
 }
 
-.big {
-  text-align: left;
+@media  (max-width: 768px) {
+  .content-container {
+    width: 100%;
+  }
 }
 
 .row {
-  margin-bottom: 20px;  
-  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.row .col-8 {
+  padding: 10px 0;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.title span {
+  font-weight: 400;
+  margin-left: 20px;
 }
 
 .link {
