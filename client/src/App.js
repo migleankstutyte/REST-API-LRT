@@ -36,11 +36,11 @@ class App extends Component {
           </p>
           <div className="content-container">
             <div className="row">
-              <div className="col-8 title">
+              <div className="col-12 title">
                 {this.state.response[2]} - {this.state.response[3]}{" "}
                 <span>{this.state.response[0]}</span>
               </div>
-              <div className="col-8">{this.state.response[1]}</div>
+              <div className="col-12">{this.state.response[1]}</div>
             </div>
           </div>
           <p className="link">
