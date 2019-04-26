@@ -34,14 +34,12 @@ class App extends Component {
             </a>
             rodome:
           </p>
-          <div className="content-container">
-            <div className="row">
-              <div className="col-12 title">
-                {this.state.response[2]} - {this.state.response[3]}{" "}
-                <span>{this.state.response[0]}</span>
-              </div>
-              <div className="col-12">{this.state.response[1]}</div>
+          <div className="row">
+            <div className="col-12 title">
+              {this.state.response[2]} - {this.state.response[3]}{" "}
+              <span>{this.state.response[0]}</span>
             </div>
+            <div className="col-12">{this.state.response[1]}</div>
           </div>
           <p className="link">
             <a

@@ -15,17 +15,6 @@
   text-transform: uppercase;
 }
 
-.content-container {
-  width: 50%;
-  margin: auto;
-}
-
-@media  (max-width: 768px) {
-  .content-container {
-    width: 100%;
-  }
-}
-
 .row {
   flex-direction: column;
   align-content: center;
